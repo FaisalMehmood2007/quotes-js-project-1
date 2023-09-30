@@ -8,7 +8,6 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'quotes_js_scraper'
-shell = ipython
 
 SPIDER_MODULES = ['quotes_js_scraper.spiders']
 NEWSPIDER_MODULE = 'quotes_js_scraper.spiders'
