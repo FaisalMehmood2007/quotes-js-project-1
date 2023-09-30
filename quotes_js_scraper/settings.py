@@ -8,6 +8,7 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'quotes_js_scraper'
+shell = ipython
 
 SPIDER_MODULES = ['quotes_js_scraper.spiders']
 NEWSPIDER_MODULE = 'quotes_js_scraper.spiders'
@@ -17,7 +18,7 @@ NEWSPIDER_MODULE = 'quotes_js_scraper.spiders'
 #USER_AGENT = 'quotes_js_scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
